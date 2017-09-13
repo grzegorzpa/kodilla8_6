@@ -1,7 +1,7 @@
 // scripts.js
 var a = prompt('Wartość A:', '6');
-	b = prompt('Wartość B:', '7');
-	value = (a * a) + (2 * a * b) - (b * b);
+var	b = prompt('Wartość B:', '7');
+var	value = (a * a) + (2 * a * b) - (b * b);
 console.log('Wynik działania ' + a + ' and ' + b + ' is equal to ' + value);
 
 if (value > 0) {
